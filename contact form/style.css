@@ -1,0 +1,40 @@
+.container{
+    background-color: antiquewhite;
+    padding: 50px;
+    max-width: 200px;
+    margin: 500px;
+    margin-top: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rbga(0,0,0,1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    display: flex;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+textarea{
+    display: flex;
+    margin-top: 7px;
+    border-radius: 5px;
+    width: 170px;
+
+}
+button{
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 110px;
+    background-color: rgb(74, 74, 255);
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
